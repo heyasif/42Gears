@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 42 Gears Web Application
+
+This is an assignment project given by 42Gears and is deployed on Vercel.
+
+## Deployed Link
+
+You can access the project [here](https://42-gears.vercel.app/).
+
+## Project Overview
+
+The 42 Gears web application features a layout with a header, sidebar, and multiple pages:
+
+- **Menu 1**: Contains a table with project details.
+- **Menu 2**: Displays project cards with different statuses.
+- **Menu 3**: Provides an input field for adding and managing items.
+
+## Project Structure
+
+- **Components**: Custom components like `Header`, `Sidebar`, and `InputField`.
+- **Pages**: Separate pages (`Menu1`, `Menu2`, `Menu3`) representing different sections of the app.
+- **Styles**: Custom styles and fonts applied using Tailwind CSS.
 
 ## Getting Started
 
-First, run the development server:
+To run this project locally, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/heyasif/42Gears.git
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
+4. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Build and Deploy
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+To create a production build and deploy it to Vercel, follow these steps:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Create a production build:
+   ```bash
+   npm run build
+   ```
+2. Deploy the build to Vercel.
 
-## Learn More
+## Technologies Used
 
-To learn more about Next.js, take a look at the following resources:
+- **Next.js**: A React framework for building fast web applications.
+- **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
+- **React Icons**: A collection of popular icons for React.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## License
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is licensed under the MIT License.
